@@ -12,9 +12,8 @@ int main()
 	//using string function
 	/*char str[100];
 	printf("Enter a string: ");
-	gets(str);*/
-	//printf("String in Upper Case: %s\n",strupr(str));
-	//printf("String in Lower Case: %s",strlwr(str));
+	gets(str);
+	printf("LOWER CASE TO UPPER CASE: %s",strupr(str));*/
 
 	//manually
 	char s[100];
