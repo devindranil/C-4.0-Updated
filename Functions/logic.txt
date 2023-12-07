@@ -1,0 +1,26 @@
+wap in c to add two number
+int n1=10,n2=20;
+int n3=20;n4=20;
+int sum1=n1+n2;
+int sum2=n3+n4;
+print sum1 //30
+print sum2//40
+.
+.
+.
+.
+n times sum1
+int n1,n2;
+int sumn=n1+n2;
+
+isprime(){
+    //logic
+
+}
+evenodd(){
+    
+}
+main(){
+    isprime(10,20);
+    isprime(30,40);
+}
