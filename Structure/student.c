@@ -7,11 +7,11 @@
 #include<stdio.h>
 #include<string.h>
 //structure define - creating a template of structure
-struct student
+union student
 {
-    int rollNo;
-    char name[100];
-    int age;
+    int rollNo;//4
+    char name[30];//30
+    int age;//4
 };
 
 int main()
@@ -38,7 +38,7 @@ int main()
 
     //while user input don't use scanf only in string type
     //user input
-    struct student s1;
+    union student s1;
     printf("Enter the Roll No: ");
     scanf("%d",&s1.rollNo);
     fflush(stdin);
